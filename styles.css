@@ -1,0 +1,21 @@
+.boxes{
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#alphaBox{
+  display: flex;
+  flex-direction: row;
+}
+
+p.selected{
+  background-color: orange;
+}
+
+p.incorrect{
+  background-color: red;
+}
